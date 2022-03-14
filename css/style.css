@@ -71,6 +71,7 @@ body{
 }
 
 .header {
+    position: absolute;
 }
 .header__container {
     display: flex;
