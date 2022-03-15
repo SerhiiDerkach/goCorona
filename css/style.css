@@ -309,7 +309,6 @@ body{
     font-weight: 700;
     line-height: 55px;
     letter-spacing: 0em;
-    text-align: left;
     font-size: 44px;
     color: #000;
 }
@@ -705,22 +704,45 @@ body{
 }
 
 
-/* ================================= */
+/* ======================================================= */
 
 .healthcare {
+    padding: 80px 0 30px 0;
 }
 .healthcare__container {
 }
 .healthcare__block-text {
+    margin: 0 0 45px 0;
 }
-.block-text {
-    
+.healthcare__items {
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    gap: 72px;
 }
-.block-text_center {
+.healthcare__item {
+    flex: 0 1 33.333%;
 }
-.block-text__title {
+.item-healthcare {
+    background: #fff;
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 35px 17px;
 }
-.block-text__text {
+.item-healthcare__icon {
+    margin: 0 0 58px 0;
 }
-.block-text__text_mw {
+.item-healthcare__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 138.5%;
+    color: #000;
+    margin: 0 0 4px 0;
+}
+.item-healthcare__text {
+    line-height: 138.5%;
 }
