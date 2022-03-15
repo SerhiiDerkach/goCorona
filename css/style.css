@@ -329,8 +329,6 @@ body{
 .block-text__text:not(:last-child) {
     margin: 0px 0px 24px 0px;
 }
-.block-text__button {
-}
 
 @media (max-width: 767.98px) {
     .block-text__title{
@@ -457,8 +455,6 @@ body{
 .stay-save__content {
     flex: 0 1 50%;
 
-}
-.stay-safe__block-text {
 }
 
 .media-stay-safe {
